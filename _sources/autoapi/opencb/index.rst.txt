@@ -1,27 +1,27 @@
-:py:mod:`opencb`
-================
+opencb
+======
 
 .. py:module:: opencb
 
 
 Subpackages
 -----------
-.. toctree::
-   :titlesonly:
-   :maxdepth: 3
 
-   games/index.rst
-   models/index.rst
-   routines/index.rst
-   utilities/index.rst
+.. toctree::
+   :maxdepth: 1
+
+   /autoapi/opencb/games/index
+   /autoapi/opencb/models/index
+   /autoapi/opencb/routines/index
+   /autoapi/opencb/utilities/index
 
 
 Submodules
 ----------
+
 .. toctree::
-   :titlesonly:
    :maxdepth: 1
 
-   __about__/index.rst
+   /autoapi/opencb/__about__/index
 
 

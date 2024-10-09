@@ -1,24 +1,21 @@
-:py:mod:`opencb.utilities`
-==========================
+opencb.utilities
+================
 
 .. py:module:: opencb.utilities
 
 
 Submodules
 ----------
+
 .. toctree::
-   :titlesonly:
    :maxdepth: 1
 
-   game/index.rst
-   screen/index.rst
+   /autoapi/opencb/utilities/game/index
+   /autoapi/opencb/utilities/screen/index
 
-
-Package Contents
-----------------
 
 Classes
-~~~~~~~
+-------
 
 .. autoapisummary::
 
@@ -29,10 +26,10 @@ Classes
    opencb.utilities.find_food_03
 
 
-
+Package Contents
+----------------
 
 .. py:class:: screen
-
 
    .. py:method:: snap_desktop(b, w, h)
 
@@ -40,41 +37,47 @@ Classes
    .. py:method:: save(name)
 
 
-
 .. py:class:: game
-
 
    .. py:attribute:: game_screen
       :value: 0
 
-      
+
 
    .. py:method:: screen()
 
 
-
 .. py:class:: find_food_01(w, h)
 
-
    Bases: :py:obj:`game`
+
 
    .. py:attribute:: victory_condition
       :value: 0
 
-      
+
 
    .. py:attribute:: blob
       :value: 0
 
-      
+
+
+   .. py:attribute:: width
+
+
+   .. py:attribute:: height
+
+
+   .. py:attribute:: starting_screen
+
+
+   .. py:attribute:: game_screen
+
 
    .. py:method:: victory()
 
 
    .. py:method:: screen_update(x, y)
-
-
-   .. py:method:: starting_screen()
 
 
    .. py:method:: choose_starting_location()
@@ -86,21 +89,26 @@ Classes
    .. py:method:: play_game()
 
 
-
 .. py:class:: find_food_02(model)
 
-
    Bases: :py:obj:`game`
+
 
    .. py:attribute:: victory_condition
       :value: 0
 
-      
+
 
    .. py:attribute:: blob
       :value: 0
 
-      
+
+
+   .. py:attribute:: width
+
+
+   .. py:attribute:: height
+
 
    .. py:method:: __create_victory_condition()
 
@@ -130,53 +138,58 @@ Classes
 
 
    .. py:method:: play_game()
-
 
 
 .. py:class:: find_food_03(model)
 
-
    Bases: :py:obj:`game`
+
 
    .. py:attribute:: victory_condition
       :value: 0
 
-      
+
 
    .. py:attribute:: blob
       :value: 0
 
-      
+
 
    .. py:attribute:: victory_x
       :value: 0
 
-      
+
 
    .. py:attribute:: victory_y
       :value: 0
 
-      
+
 
    .. py:attribute:: starting_x
       :value: 0
 
-      
+
 
    .. py:attribute:: starting_y
       :value: 0
 
-      
+
 
    .. py:attribute:: min_dx
       :value: 0
 
-      
+
 
    .. py:attribute:: min_dy
       :value: 0
 
-      
+
+
+   .. py:attribute:: width
+
+
+   .. py:attribute:: height
+
 
    .. py:method:: __create_victory_condition()
 
@@ -206,6 +219,5 @@ Classes
 
 
    .. py:method:: play_game()
-
 
 

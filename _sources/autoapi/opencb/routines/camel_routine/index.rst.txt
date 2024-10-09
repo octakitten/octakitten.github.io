@@ -1,5 +1,5 @@
-:py:mod:`opencb.routines.camel_routine`
-=======================================
+opencb.routines.camel_routine
+=============================
 
 .. py:module:: opencb.routines.camel_routine
 

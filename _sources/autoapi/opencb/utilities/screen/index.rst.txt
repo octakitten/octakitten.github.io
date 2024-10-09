@@ -1,29 +1,25 @@
-:py:mod:`opencb.utilities.screen`
-=================================
+opencb.utilities.screen
+=======================
 
 .. py:module:: opencb.utilities.screen
 
 
-Module Contents
----------------
-
 Classes
-~~~~~~~
+-------
 
 .. autoapisummary::
 
    opencb.utilities.screen.screen
 
 
-
+Module Contents
+---------------
 
 .. py:class:: screen
-
 
    .. py:method:: snap_desktop(b, w, h)
 
 
    .. py:method:: save(name)
-
 
 

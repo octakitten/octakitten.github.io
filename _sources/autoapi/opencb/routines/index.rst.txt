@@ -1,26 +1,23 @@
-:py:mod:`opencb.routines`
-=========================
+opencb.routines
+===============
 
 .. py:module:: opencb.routines
 
 
 Submodules
 ----------
+
 .. toctree::
-   :titlesonly:
    :maxdepth: 1
 
-   camel_routine/index.rst
-   grizzlybear_routine/index.rst
-   horse_routine/index.rst
-   iteration/index.rst
+   /autoapi/opencb/routines/camel_routine/index
+   /autoapi/opencb/routines/grizzlybear_routine/index
+   /autoapi/opencb/routines/horse_routine/index
+   /autoapi/opencb/routines/iteration/index
 
-
-Package Contents
-----------------
 
 Classes
-~~~~~~~
+-------
 
 .. autoapisummary::
 
@@ -28,9 +25,8 @@ Classes
    opencb.routines.horse_routine
 
 
-
 Functions
-~~~~~~~~~
+---------
 
 .. autoapisummary::
 
@@ -47,9 +43,10 @@ Functions
    opencb.routines.test011
 
 
+Package Contents
+----------------
 
 .. py:class:: grizzlybear_routine
-
 
    .. py:method:: run_routine()
       :staticmethod:
@@ -58,7 +55,6 @@ Functions
 
 .. py:class:: horse_routine
 
-
    .. py:method:: run_routine()
       :staticmethod:
 
@@ -66,33 +62,23 @@ Functions
 
 .. py:function:: test001()
 
-
 .. py:function:: test002()
-
 
 .. py:function:: test003()
 
-
 .. py:function:: test004()
-
 
 .. py:function:: test005()
 
-
 .. py:function:: test006()
-
 
 .. py:function:: test007()
 
-
 .. py:function:: test008()
-
 
 .. py:function:: test009()
 
-
 .. py:function:: test010()
-
 
 .. py:function:: test011()
 
