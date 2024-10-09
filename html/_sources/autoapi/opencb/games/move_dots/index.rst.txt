@@ -1,0 +1,32 @@
+opencb.games.move_dots
+======================
+
+.. py:module:: opencb.games.move_dots
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   opencb.games.move_dots.game001
+
+
+Module Contents
+---------------
+
+.. py:class:: game001
+
+   .. py:attribute:: screen
+      :value: 0
+
+
+
+   .. py:attribute:: victory
+      :value: 0
+
+
+
+   .. py:method:: __create_victory_condition()
+
+

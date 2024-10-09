@@ -1,0 +1,185 @@
+opencb.games
+============
+
+.. py:module:: opencb.games
+
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 1
+
+   /autoapi/opencb/games/forest/index
+   /autoapi/opencb/games/move_dots/index
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   opencb.games.game001
+   opencb.games.forest
+
+
+Package Contents
+----------------
+
+.. py:class:: game001
+
+   .. py:attribute:: screen
+      :value: 0
+
+
+
+   .. py:attribute:: victory
+      :value: 0
+
+
+
+   .. py:method:: __create_victory_condition()
+
+
+.. py:class:: forest(model)
+
+   .. py:attribute:: victory_condition
+      :value: False
+
+
+
+   .. py:attribute:: loss_condition
+      :value: False
+
+
+
+   .. py:attribute:: blob
+      :value: 0
+
+
+
+   .. py:attribute:: victory_x
+      :value: 0
+
+
+
+   .. py:attribute:: victory_y
+      :value: 0
+
+
+
+   .. py:attribute:: starting_x
+      :value: 0
+
+
+
+   .. py:attribute:: starting_y
+      :value: 0
+
+
+
+   .. py:attribute:: min_dx
+      :value: 0
+
+
+
+   .. py:attribute:: min_dy
+      :value: 0
+
+
+
+   .. py:attribute:: game_screen
+      :value: 0
+
+
+
+   .. py:attribute:: tree
+      :value: 0
+
+
+
+   .. py:attribute:: tile
+      :value: 50
+
+
+
+   .. py:attribute:: player
+      :value: 200
+
+
+
+   .. py:attribute:: flag
+      :value: 255
+
+
+
+   .. py:attribute:: player_location_x
+      :value: 0
+
+
+
+   .. py:attribute:: player_location_y
+      :value: 0
+
+
+
+   .. py:method:: screen()
+
+
+   .. py:attribute:: width
+
+
+   .. py:attribute:: height
+
+
+   .. py:method:: __create_victory_condition()
+
+
+   .. py:method:: __loss_condition()
+
+
+   .. py:method:: __win_condition()
+
+
+   .. py:method:: __victory()
+
+
+   .. py:method:: __screen_update(x, y)
+
+
+   .. py:method:: __create_starting_screen()
+
+
+   .. py:method:: __check_valid_tree_spot(x, y)
+
+
+   .. py:method:: __check_close_to_tree(x, y)
+
+
+   .. py:method:: __create_forest()
+
+
+   .. py:method:: __choose_starting_location()
+
+
+   .. py:method:: __choose_victory_location()
+
+
+   .. py:method:: __blob_action(action)
+
+
+   .. py:method:: __set_x(w)
+
+
+   .. py:method:: __set_y(h)
+
+
+   .. py:method:: set_model(model)
+
+
+   .. py:method:: restart()
+
+
+   .. py:method:: play_game()
+
+

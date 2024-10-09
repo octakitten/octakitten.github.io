@@ -1,0 +1,80 @@
+opencb.routines.iteration
+=========================
+
+.. py:module:: opencb.routines.iteration
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   opencb.routines.iteration.test001
+   opencb.routines.iteration.test002
+   opencb.routines.iteration.test003
+   opencb.routines.iteration.test004
+   opencb.routines.iteration.test005
+   opencb.routines.iteration.test006
+   opencb.routines.iteration.test007
+   opencb.routines.iteration.test008
+   opencb.routines.iteration.test009
+   opencb.routines.iteration.test010
+   opencb.routines.iteration.test011
+   opencb.routines.iteration.test012
+   opencb.routines.iteration.test013
+
+
+Module Contents
+---------------
+
+.. py:function:: test001()
+
+.. py:function:: test002()
+
+.. py:function:: test003()
+
+.. py:function:: test004()
+
+.. py:function:: test005()
+
+.. py:function:: test006()
+
+.. py:function:: test007()
+
+.. py:function:: test008()
+
+.. py:function:: test009()
+
+.. py:function:: test010()
+
+.. py:function:: test011()
+
+   :Parameters:
+   none
+   :Returns:
+   none
+   :Comments:
+   This function is a test for iterating on the general_dev model. This is the latest model as of 05-17-2024. The goal with iterating
+   on the model is to develop a set of parameters that work to have the model solve the game it's currently playing.
+   For this function we're making use of the game find_food_003, where the model is supposed to move a dot from a random 
+   location on the screen and get it to the top left corner of the screen. This function will run the game until it's won,
+   changing the models parameters each time it fails. The model's parameters will be saved to a file if it wins a game, otherwise
+   this function will run indefinitely.
+
+
+.. py:function:: test012(dir)
+
+   Parameters:
+   none
+   Returns:
+   none
+   Comments:
+   Here we'll be testing a new game mode called forest. The game will have the model move a dot through a forest of dots until it 
+   reaches the goal somewhere in the image. It receives positive input when it gets closer and negative when it gets further. Also,
+   the model receives a powerful negative input when it gets too close to a tree. If it hits a tree, it dies.
+   We'll be using the general_dev model for this.
+
+
+
+.. py:function:: test013(dir)
+
